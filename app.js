@@ -193,7 +193,8 @@ onAuthStateChanged(auth, (user) => {
     return;
   }
 
-  userInfo.textContent = `Đăng nhập: ${user.email}`;
+  userInfo.textContent = `Đăng nhập: ${user.email} | UID: ${user.uid.slice(0,6)}...`;
+
   showApp();
   listenScores(user.uid);
 });

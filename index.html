@@ -8,12 +8,12 @@
 </head>
 <body class="bg-light">
   <div class="container py-4" style="max-width: 980px;">
-    <div class="d-flex align-items-center justify-content-between mb-3">
-      <h3 class="m-0">📚 Quản lý điểm thi cá nhân</h3>
-      <div class="d-flex gap-2 align-items-center">
-        <span id="userInfo" class="text-muted small"></span>
-        <button id="btnLogout" class="btn btn-outline-danger btn-sm d-none">Đăng xuất</button>
-      </div>
+    <div class="d-flex gap-2 align-items-center">
+  <a href="./quy.html" class="btn btn-outline-success btn-sm">💰 Quỹ lớp</a>
+  <span id="userInfo" class="text-muted small"></span>
+  <button id="btnLogout" class="btn btn-outline-danger btn-sm d-none">Đăng xuất</button>
+</div>
+
     </div>
 
     <!-- AUTH -->
@@ -87,9 +87,7 @@
           </table>
         </div>
 
-        <div class="text-muted small">
-          Dữ liệu lưu tại: <code>users/{uid}/scores</code> (Firestore)
-        </div>
+       
       </div>
     </div>
   </div>
